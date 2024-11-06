@@ -1,0 +1,78 @@
+body{
+    font-family: Verdana, sans-serif; 
+    font-size: 18px; 
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(232, 226, 254);
+    }
+ul a{
+    color: white;
+    text-decoration: none;
+    padding: 10;
+    }
+li{
+    display: inline-block;
+    height: 20px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: rgb(117, 98, 141);
+    }
+li:hover{
+    background-color: rgb(66, 47, 90);
+    border-style: none;
+    }
+h1{
+    font-size: 22px;
+    text-align: center;
+    }
+.p1{
+    margin: auto;
+    padding: 15px;
+    background-color: rgb(204, 188, 222);
+    opacity: 0.9;
+    width: 600px;
+    height: 50%;
+    }
+input[type="text"], input[type="email"], textarea, button{
+    font-family: Verdana, sans-serif;  
+    display: block;
+    margin: 15px auto;
+    width: 400px;
+    box-sizing: border-box;   
+    border-radius: 4px; 
+    box-shadow: inset 2px 2px 5px rgb(66, 47, 90);
+    }
+textarea{
+    height: 200px;
+    box-shadow: inset 2px 2px 5px rgb(66, 47, 90);
+    padding: 5px 4px;
+    border-radius: 4px; 
+    }
+button:hover{
+    background-color: rgb(117, 98, 141);
+    }
+button:active{
+    background-color: rgb(66, 47, 90);
+    color: white;
+    border-radius: 4px; 
+    box-shadow: inset 2px 2px 5px rgb(66, 47, 90);
+    }
+table{
+    border-style: solid;
+    border-color: rgb(117, 98, 141);
+    border-collapse: collapse;
+    margin:auto;
+    width: 600px;
+    }
+td, th{
+    text-align:left;
+    padding: 10px 5px;
+    background-color: rgb(204, 188, 222);
+    }
+footer{
+    font-size: 14px;
+    padding: 5px;
+    background-color: rgb(117, 98, 141);
+    }
